@@ -14,10 +14,23 @@
 <section class="nav">
 	<div class="ham">
 		<div class="bars">
+		<div class="bar-name">
+			MENU
+		</div>
+		<div class="bartender">
 			<div class="bar bar1"></div>
 			<div class="bar bar2"></div>
 			<div class="bar bar3"></div>
 		</div>
+		</div>
+	</div>
+	<div class="menu col-md-4">
+		<ul>
+			<li class="item it1">HOME</li><div class="strikethrough"></div>
+			<li class="item it2">ABOUT</li><div class="strikethrough"></div>
+			<li class="item it3">PORTFOLIO</li><div class="strikethrough"></div>
+			<li class="item it4">CONTACT</li><div class="strikethrough"></div>
+		</ul>
 	</div>
 </section>
 <section class="about">
@@ -89,10 +102,12 @@
 <script type="text/javascript" src="assets/js/jq.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('.bars').click(function(){
+		$('.bars, .item').click(function(){
 			$('.bar2').toggleClass('bar1-ac')
 			$('.bar1').toggleClass('bar2-ac')
 			$('.bar3').toggleClass('bar3-ac')
+			$('.menu').toggleClass('menu-ac')
+			$('.bar-name').toggleClass('bar-name-ac')
 		})
 	})
 </script>

@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	overflow-x: hidden;
+	font-family: 'opr';
 }
 @font-face {
 	src: url('fonts/OpenSans-Regular.ttf');
@@ -75,6 +76,14 @@ body{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.bartender{
+	display: inline-block;
+}
+.bar-name{
+	display: inline-block;
+	transition: 300ms all ease-in-out; 
+	transform: translate(-7px, -17.5px);
+}
 .bar1-ac{
 	transform: rotate(45deg);
 }
@@ -83,4 +92,30 @@ body{
 }
 .bar3-ac{
 	transform: rotate(-45deg);
+	margin-top: -11.5px;
+}
+.menu{
+	position: fixed;
+	z-index: 20;
+	text-align: center;
+	padding-top: 20vh;
+	font-size: 7vh;
+	height: 100vh;
+	width: 40vw;
+	margin-left: 100vw;
+	transition: 500ms all ease-in-out;
+	background-color: #fff;
+}
+.item{
+	padding-top: 3vh;
+	cursor: pointer;
+}
+ul{
+	list-style-type: none;
+}
+.menu-ac{
+	margin-left: 60vw;
+}
+.bar-name-ac{
+	opacity: 0;
 }
