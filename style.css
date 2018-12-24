@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	overflow: hidden;
+}
+.works{
+	/*background-image: url('home_sec.jpg');*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: unset;
+	height: 40vh;
+	width: 100vw;
+	background-color: #000;
+	color:#fff;
+}
+.card{
+	height: 40vh;
+	border-right: 1px solid #fff;
+	cursor: pointer;
+}
+.card-head{
+	font-size: 18px;
+}
+
+.card-line{
+	height: 1px;
+	background-color: #fff;
+	width: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.card-para{
+	font-size: 12px;
+}
