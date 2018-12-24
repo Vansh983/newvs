@@ -57,9 +57,30 @@ body{
 	width: 50px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-
 }
-
 .card-para{
 	font-size: 12px;
+}
+.bars{
+	position: fixed;
+	z-index: 30;
+	cursor: pointer;
+	right: 10%;
+}
+.bar{
+	height: 2px;
+	transition: 300ms;
+	width: 50px;
+	background-color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bar1-ac{
+	transform: rotate(45deg);
+}
+.bar2-ac{
+	opacity: 0;
+}
+.bar3-ac{
+	transform: rotate(-45deg);
 }
