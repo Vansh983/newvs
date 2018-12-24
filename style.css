@@ -1,26 +1,56 @@
 body{
 	margin: 0;
-	overflow: hidden;
+	overflow-x: hidden;
+}
+@font-face {
+	src: url('fonts/OpenSans-Regular.ttf');
+	font-family: 'opr';
+}
+@font-face {
+	src: url('fonts/OpenSans-Bold.ttf');
+	font-family: 'opb';
+}
+.heading{
+	color: #000;
+	font-size: 8vh;
+	font-family: 'opb';
+}
+.about-para{
+	font-size: 20px;
+	font-family: 'opr';
+	padding: 5vh;
 }
 .works{
 	/*background-image: url('home_sec.jpg');*/
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: unset;
-	height: 40vh;
+	/* background-size: unset; */
 	width: 100vw;
-	background-color: #000;
+	/* background-color: #000; */
 	color:#fff;
 }
 .card{
 	height: 40vh;
-	border-right: 1px solid #fff;
+	border-right: 0.6px solid #efefef;
+	border-bottom: 0.6px solid #efefef;
 	cursor: pointer;
+	padding-top: 5vh;
+	background-color: #000;
+	padding-left: 5vh;
+	padding-right: 5vh;
 }
 .card-head{
 	font-size: 18px;
 }
-
+.card-ic{
+	background-image: url('assets/logo-w.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 5vh;
+	width: 5vh;
+	margin-bottom: 3vh;
+}
 .card-line{
 	height: 1px;
 	background-color: #fff;
