@@ -21,15 +21,7 @@ body{
 	font-family: 'opr';
 	padding: 5vh;
 }
-.works{
-	/*background-image: url('home_sec.jpg');*/
-	background-repeat: no-repeat;
-	background-position: center;
-	/* background-size: unset; */
-	width: 100vw;
-	/* background-color: #000; */
-	color:#fff;
-}
+
 /* .card{
 	height: 40vh;
 	border-right: 0.6px solid #efefef;

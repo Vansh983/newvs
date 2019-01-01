@@ -1,0 +1,39 @@
+.block{
+  margin: auto;
+  height: 50vh;
+  width: 60vw;
+  background-image: url('assets/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.block-no{
+  position: absolute;
+  z-index: 9;
+  font-size: 20vh;
+  padding-top: -20px;
+  transform: translate(-50px,-50px);
+  text-shadow: 4px 4px 7px #676767;
+  color: #fff;
+  font-family: 'opb';
+}
+.block-tint{
+  height: 50vh;
+  width: 60vw;
+  position: absolute;
+  z-index: 2;
+  background-color: #000;
+  opacity: 0.4;
+}
+.block-butt{
+  height: 50px;
+  width: 130px;
+  background: #0012ff;
+  padding-top: 15px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  z-index: 8;
+  transform: translate(45vw, 35vh);
+}
