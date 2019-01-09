@@ -6,6 +6,12 @@ $(document).ready(function(){
     $('.menu').toggleClass('menu-ac')
     $('.bar-name').toggleClass('bar-name-ac')
   })
+  $('.block-butt').hover(function(){
+    $('.ar-right1').toggleClass('ar-right-ac')
+  })
+  $('.gci-butt').hover(function(){
+    $('.ar-right2').toggleClass('ar-right-ac')
+  })
 
 function Particles(){
 this.colors = [
