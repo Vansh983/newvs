@@ -12,6 +12,37 @@ $(document).ready(function(){
   $('.gci-butt').hover(function(){
     $('.ar-right2').toggleClass('ar-right-ac')
   })
+  $('.it1').click(function(){
+			$('body, html').animate({scrollTop:$('.land').offset().top}, 1000)
+	})
+  $('.it2').click(function(){
+			$('body, html').animate({scrollTop:$('.about').offset().top}, 1000)
+	})
+  $('.it3').click(function(){
+			$('body, html').animate({scrollTop:$('.works').offset().top}, 1000)
+	})
+  $('.it4').click(function(){
+			$('body, html').animate({scrollTop:$('.contact').offset().top}, 1000)
+	})
+  $(window).scroll(function(){
+    var x = $(window).scrollTop();
+    console.log(x);
+    $('.bar').addClass('black')
+    $('.bar-name').addClass('black-text')
+    if (x < 635) {
+      $('.bar').removeClass('black')
+      $('.bar-name').removeClass('black-text')
+    }
+    else if (x > 4120) {
+      $('.bar').removeClass('black')
+      $('.bar-name').removeClass('black-text')
+    }
+    else{
+      $('.bar').addClass('black')
+      $('.bar-name').addClass('black-text')
+    }
+  })
+
 
 function Particles(){
 this.colors = [

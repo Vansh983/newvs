@@ -97,6 +97,12 @@ ul{
 	transition: 300ms all ease-in-out;
 	transform: translate(-7px, -17.5px);
 }
+.black{
+	background-color: #13171c;
+}
+.black-text{
+	color: #13171c;
+}
 .bar1-ac{
 	background-color: #efefef;
 	transform: rotate(45deg);
