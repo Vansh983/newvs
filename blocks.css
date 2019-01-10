@@ -1,6 +1,7 @@
 .block{
   margin: auto;
-  height: 50vh;
+  height: 60vh;
+  margin-top: 15vh;
   width: 60vw;
   background-image: url('assets/bg.jpg');
   background-position: center;
@@ -19,7 +20,7 @@
   font-family: 'opb';
 }
 .block-tint{
-  height: 50vh;
+  height: 60vh;
   width: 60vw;
   position: absolute;
   z-index: 2;
@@ -41,6 +42,24 @@
   letter-spacing: 3px;
   transform: translate(45vw, 35vh);
   box-shadow: 3px 3px 20px 0px #000000ad;
+}
+.b1{
+  background-image: url('assets/stellarbanner.png');
+}
+.b2{
+  background-image: url('assets/consilio.png');
+}
+.b3{
+  background-image: url('assets/contactbanner.png');
+}
+.b4{
+  background-image: url('assets/gatewaysitebanner.png');
+}
+.b5{
+  background-image: url('assets/bg.jpg');
+}
+.b6{
+  background-image: url('assets/home_sec.jpg');
 }
 .block-butt:hover{
   /* animation: butt 1s; */

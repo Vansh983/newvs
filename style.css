@@ -27,6 +27,9 @@ body{
 	background: #13171c;
 
 }
+ul{
+	padding: 0;
+}
 .heading{
 	color: #000;
 	font-size: 8vh;
@@ -110,12 +113,12 @@ body{
 	position: fixed;
 	z-index: 20;
 	text-align: center;
-	padding-top: 20vh;
-	font-size: 5vh;
+	padding-top: 15vh;
+	font-size: 4vh;
 	height: 100vh;
 	width: 30vw;
 	margin-left: 100vw;
-	transition: 500ms all ease-in-out;
+	transition: 500ms;
 	/* background-color: #fff; */
 	background-image: radial-gradient(#292929, #13171c);
 	color: #efefef;
@@ -209,8 +212,8 @@ ul{
 	cursor: pointer;
 }
 .gci-butt:hover{
-	box-shadow: inset 0 0 0 30px #efefef;
-	color: #13171c;
+	/* box-shadow: inset 0 0 0 30px #efefef; */
+	/* color: #13171c; */
 }
 .ar-right{
 	transition: 300ms;
@@ -220,4 +223,22 @@ ul{
 .ar-right-ac{
 	padding-left: 10px;
 	opacity: 1;
+}
+footer{
+	height: 60vh;
+	width: 100vw;
+	background-image: url('assets/galaxy2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.it0{
+	margin: auto;
+	margin-bottom: 5vh;
+	height: 25vh;
+	width: 25vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url('assets/vs.png');
 }
