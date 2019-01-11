@@ -30,6 +30,10 @@ body{
 ul{
 	padding: 0;
 }
+a, a:active, a:hover, a:link, a:visited{
+	color: #efefef;
+	text-decoration: none;
+}
 .heading{
 	color: #000;
 	font-size: 8vh;
@@ -232,6 +236,7 @@ ul{
 }
 footer{
 	height: 60vh;
+	padding-top: 15vh;
 	width: 100vw;
 	background-image: url('assets/galaxy2.png');
 	background-repeat: no-repeat;
@@ -247,4 +252,81 @@ footer{
 	background-size: cover;
 	background-position: center;
 	background-image: url('assets/vs.png');
+}
+.project{
+	padding-top: 10vh;
+	font-size: 25px;
+	cursor: pointer;
+	padding-left: 5vh;
+	background-color: #13171c;
+	height: 30vh;
+	color: #efefef;
+}
+.email{
+	cursor: pointer;
+	height: 30vh;
+	font-size: 25px;
+	padding-top: 10vh;
+	padding-left: 5vh;
+	color: #13171c;
+	background-color: #dedddd;
+}
+.work-line{
+	margin: auto;
+	height: 2px;
+	width: 160px;
+	background-color: #13171c;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+.variety{
+	margin-left: 72.5vh;
+	/* margin-top: 10vh; */
+}
+.foot-it{
+	margin: auto;
+	color: #efefef;
+	font-size: 25px;
+	width: 10vh;
+	text-align: center;
+	display: inline-block;
+}
+
+.variety-m{
+	/* width: 50vw; */
+	/* margin: auto; */
+}
+.menu-it{
+	/* margin: auto; */
+	color: #efefef;
+	margin-top: 7.5vh;
+	font-size: 20px;
+	width: 7vh;
+	text-align: center;
+	display: inline-block;
+}
+.foot-logo{
+	margin: auto;
+	height: 10vh;
+	width: 10vh;
+	background-image: url('assets/logo-w.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.foot-name{
+	width: 100vw;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 3vh;
+	letter-spacing: 4px;
+	font-weight: bold;
+	color: #dedede;
+}
+.foot-line{
+	width: 100vw;
+	height: 2px;
+	background: #8a8a8a;
+	margin-top: 10vh;
+	margin-bottom: 6vh;
 }

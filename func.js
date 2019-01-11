@@ -33,10 +33,14 @@ $(document).ready(function(){
       $('.bar').removeClass('black')
       $('.bar-name').removeClass('black-text')
     }
-    else if (x > 4120) {
+    else if (x > 4120 && x < 4545) {
       $('.bar').removeClass('black')
       $('.bar-name').removeClass('black-text')
     }
+  //  else if (x > 4545) {
+    //  $('.bar').addClass('black')
+      //$('.bar-name').addClass('black-text')
+    //}
     else{
       $('.bar').addClass('black')
       $('.bar-name').addClass('black-text')
