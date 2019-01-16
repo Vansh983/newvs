@@ -1,3 +1,5 @@
+  $('.cross-mail').hide();
+  $('.mailid').hide();
 $(document).ready(function(){
   $('.bars, .item').click(function(){
     $('.bar2').toggleClass('bar1-ac')
@@ -24,6 +26,26 @@ $(document).ready(function(){
   $('.it4').click(function(){
 			$('body, html').animate({scrollTop:$('.contact').offset().top}, 1000)
 	})
+  $('.email-butt').click(function(){
+    $('.email').addClass('email-ac')
+    $('.mailid').show(700);
+    $('.cross-mail').show(700);
+    $('.project').hide(500);
+    $('.email').removeClass('col-md-6');
+    $('.email').removeClass('pointer');
+    $('.email').addClass('col-md-12');
+    $('.email-butt').hide();
+  })
+  $('.cross-mail').click(function(){
+    $('.email').removeClass('email-ac')
+    $('.mailid').hide(500);
+    $('.email-butt').show();
+    $('.cross-mail').hide(500);
+    $('.project').show(500);
+    $('.email').addClass('col-md-6');
+    $('.email').addClass('pointer');
+    $('.email').removeClass('col-md-12');
+  })
   $(window).scroll(function(){
     var x = $(window).scrollTop();
     console.log(x);
