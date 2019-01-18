@@ -380,5 +380,23 @@ footer{
 .form-in{
 	background: transparent;
 	color: #efefef;
-	
+	border: none;
+	border-bottom: 1px solid #efefef;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.project{
+	transition: 300ms;
+	padding-left: 10vh;
+}
+.content{
+	margin-top: 5vh;
+	color: #efefef;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #efefef;
+	padding-left: 15px;
+	padding-top: 5px;
+	/* padding-bottom: 5px; */
 }

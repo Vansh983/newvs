@@ -52,19 +52,21 @@ $(document).ready(function(){
     $('.project').addClass('project-ac')
     // $('.mailid').show(700);
     $('.cross-start').show(700);
-    $('.email').hide(500);
+    $('.email').hide();
     $('.project').removeClass('col-md-6');
     $('.project').removeClass('pointer');
     $('.project').addClass('col-md-12');
     $('.start-butt').hide();
     $('.form').show(500);
+    $('.email').addClass('delay')
   })
   $('.cross-start').click(function(){
-    $('.project').removeClass('email-ac')
+    $('.project').removeClass('project-ac')
     // $('.mailid').hide(500);
     $('.start-butt').show();
     $('.cross-start').hide(500);
     $('.form').hide();
+    $('.email').addClass('delay')
     $('.email').show();
     $('.project').addClass('col-md-6');
     $('.project').addClass('pointer');
