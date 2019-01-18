@@ -1,5 +1,7 @@
+  $('.cross-start').hide();
   $('.cross-mail').hide();
   $('.mailid').hide();
+  $('.form').hide();
 $(document).ready(function(){
   $('.bars, .item').click(function(){
     $('.bar2').toggleClass('bar1-ac')
@@ -41,10 +43,32 @@ $(document).ready(function(){
     $('.mailid').hide(500);
     $('.email-butt').show();
     $('.cross-mail').hide(500);
-    $('.project').show(500);
+    $('.project').show();
     $('.email').addClass('col-md-6');
     $('.email').addClass('pointer');
     $('.email').removeClass('col-md-12');
+  })
+  $('.start-butt').click(function(){
+    $('.project').addClass('project-ac')
+    // $('.mailid').show(700);
+    $('.cross-start').show(700);
+    $('.email').hide(500);
+    $('.project').removeClass('col-md-6');
+    $('.project').removeClass('pointer');
+    $('.project').addClass('col-md-12');
+    $('.start-butt').hide();
+    $('.form').show(500);
+  })
+  $('.cross-start').click(function(){
+    $('.project').removeClass('email-ac')
+    // $('.mailid').hide(500);
+    $('.start-butt').show();
+    $('.cross-start').hide(500);
+    $('.form').hide();
+    $('.email').show();
+    $('.project').addClass('col-md-6');
+    $('.project').addClass('pointer');
+    $('.project').removeClass('col-md-12');
   })
   $(window).scroll(function(){
     var x = $(window).scrollTop();

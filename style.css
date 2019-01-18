@@ -331,7 +331,7 @@ footer{
 	margin-top: 10vh;
 	margin-bottom: 6vh;
 }
-.email{
+.email, .projectgci {
 	transition: 500ms;
 }
 .email-ac{
@@ -341,19 +341,19 @@ footer{
 	font-size: 30px;
 		/* width: 100%; */
 }
-.cross-mail{
+.cross-mail, .cross-start{
 	position: absolute;
 	top: 20%;
 	right: 20%;
 	cursor: pointer;
 }
-.ebar{
+.ebar, .sbar{
 	height: 2px;
 	width:50px;
 	background-color: #13171c;
 	transform: rotate(-45deg);
 }
-.ebar2{
+.ebar2, .sbar2{
 	transform: rotate(45deg);
 	margin-top: -2px;
 }
@@ -370,7 +370,15 @@ footer{
 .pointer{
 	cursor: pointer;
 }
-.email-butt{
+.email-butt, .start-butt{
 	height: inherit;
 	position: absolute;
+}
+.sbar{
+	background: #efefef;
+}
+.form-in{
+	background: transparent;
+	color: #efefef;
+	
 }
