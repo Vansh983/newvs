@@ -127,7 +127,8 @@ a, a:active, a:hover, a:link, a:visited{
 	font-size: 4vh;
 	height: 100vh;
 	width: 30vw;
-	margin-left: 100vw;
+	/* margin-left: 100vw; */
+	right: -30vw;
 	transition: 500ms;
 	/* background-color: #fff; */
 	background-image: radial-gradient(#292929, #13171c);
@@ -141,7 +142,8 @@ ul{
 	list-style-type: none;
 }
 .menu-ac{
-	margin-left: 70vw;
+	/* margin-left: 70vw; */
+	right: 0;
 }
 .bar-name-ac{
 	opacity: 0;
@@ -307,14 +309,37 @@ footer{
 	display: inline-block;
 }
 .foot-logo{
-	margin: auto;
+	display: inline-block;
+	margin-left: 46vw;
 	height: 10vh;
 	width: 10vh;
 	background-image: url('assets/logo-w.png');
 	background-position: center;
 	background-size: contain;
+	cursor: pointer;
 	background-repeat: no-repeat;
 }
+.up{
+	display: inline-block;
+	/* width: 5vw; */
+	color: #efefef;
+	font-size: 30px;
+	/* padding-left: 15px; */
+	padding-top: 2px;
+	width: 46.5px;
+	padding-bottom: 2px;
+	/* padding-right: 15px; */
+	cursor: pointer;
+	transition: 370ms;
+	text-align: center;
+	transform: translateY(-3vh);
+	border-radius: 100%;
+}
+/* .up:hover{
+	background-color: #dedede;
+	color: #13171c;
+} */
+
 .foot-name{
 	width: 100vw;
 	text-align: center;
@@ -399,4 +424,7 @@ footer{
 	padding-left: 15px;
 	padding-top: 5px;
 	/* padding-bottom: 5px; */
+}
+.form{
+	margin-top: 7vh;
 }

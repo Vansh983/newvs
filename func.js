@@ -28,11 +28,14 @@ $(document).ready(function(){
   $('.it4').click(function(){
 			$('body, html').animate({scrollTop:$('.contact').offset().top}, 1000)
 	})
+  $('.foot-logo, .up').click(function(){
+			$('body, html').animate({scrollTop:$('.land').offset().top}, 1000)
+	})
   $('.email-butt').click(function(){
     $('.email').addClass('email-ac')
     $('.mailid').show(700);
     $('.cross-mail').show(700);
-    $('.project').hide(500);
+    $('.project').hide(200);
     $('.email').removeClass('col-md-6');
     $('.email').removeClass('pointer');
     $('.email').addClass('col-md-12');
@@ -49,7 +52,7 @@ $(document).ready(function(){
     $('.email').removeClass('col-md-12');
   })
   $('.start-butt').click(function(){
-    $('.project').addClass('project-ac')
+    $('.project').addClass('email-ac')
     // $('.mailid').show(700);
     $('.cross-start').show(700);
     $('.email').hide();
@@ -61,7 +64,7 @@ $(document).ready(function(){
     $('.email').addClass('delay')
   })
   $('.cross-start').click(function(){
-    $('.project').removeClass('project-ac')
+    $('.project').removeClass('email-ac')
     // $('.mailid').hide(500);
     $('.start-butt').show();
     $('.cross-start').hide(500);
